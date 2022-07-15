@@ -1,0 +1,304 @@
+/*=========================================   fremworke   ========================================*/
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Koulen', cursive;
+}
+html {
+    background-color: rgb(255, 255, 255) ;
+}
+body {
+    margin: 0px;
+    
+}
+header { 
+    background-color: #81d4fa ;
+    
+}
+
+a {
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-left: 350px;
+}
+p {
+    max-width: 800PX;
+    font-size: 15px;
+}
+li {
+    text-decoration: none;
+}
+/*=========================================   fremworke   ========================================*/
+
+
+
+
+
+
+
+
+/*=========================================   header   ========================================*/
+
+#logo {
+    max-height: 50px ;
+    padding-left: 5px;
+}
+
+#title {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px ;
+    font-family: 'Koulen', cursive;
+    font-size: 40px;
+    margin: 0px;
+    padding-left: 10px;
+    letter-spacing: 3px;
+}
+#brand h1 {
+    display: flex;
+    align-items: center;
+}
+#lest {
+    display: flex;
+    align-items: center;
+    
+}
+#lest * {
+    display: flex;
+    align-items: center;
+    font-family: 'Koulen', cursive;
+    color: white;
+    font-size: 25px ;
+}
+#lest li {
+    margin-right: 10PX;
+    margin-left: 10px;
+    padding-left: 10px ;
+    padding-right: 10px;
+    height: 40PX ;
+}
+#lest ul li a:hover{
+    color: #b6ffff;
+}
+
+/*=========================================   header   ========================================*/
+
+
+
+
+
+
+
+/*=========================================   me   ========================================*/
+#about {
+    position:absolute;
+    right:24%;
+    top: 30%;
+    font-size: 30px;
+}
+.hi {
+    font-size: 80px;
+    margin-right: 10px;
+    color: #005983;
+}
+#about p {
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+#about_2 #DB{
+    position: absolute;
+    right: 60% ;
+    top: 140%;
+}
+#about_2 #DD {
+    position: absolute;
+    right: 30%;
+    top: 140%;
+}
+#about_2 li {
+    font-size: 24px;
+    padding: 20PX 0;
+}
+#about_2 img{
+    max-width: 100px;
+}
+#about_2 h1 {
+    position: absolute;
+    right: 43%;
+    top: 120%;
+}
+#about_2 #DC {
+    position: absolute;
+    right: 45%;
+    top: 140%;
+}
+#about_2 #DB :last-child{
+    width: 78px;
+}
+#BK {
+    background-color: #81d4fa;
+    width: 1663px;
+    height: 862px;
+}
+#about_2 { 
+    min-height: 939px;
+}
+#about_2 h1 .hi {
+    color: #006da0;
+}
+/*=========================================   me   ========================================*/
+
+
+
+
+/*=========================================  manipulation   ========================================*/
+#about_body {
+    height: 2400px;
+}
+.my_img {
+    width: 200px ;
+}
+#about_body p {
+    font-size: 18px ;
+    letter-spacing: 2px;
+}
+#about_body h1 {
+    color: #003f5c;
+}
+#manipulation{
+    position: absolute;
+    top: 30%;
+    right: 60%;
+}
+#about_body section div{
+    position: absolute;
+    LEFt: 130%;
+    width: 420px;
+}
+.title {
+    letter-spacing: 2px ;
+    font-size: 30px;
+}
+#SM-design {
+    position: absolute;
+    right: 60%;
+    top: 80%;
+}
+#logo_desgin {
+    position: absolute;
+    right: 60%;
+    top: 130%;
+}
+#menu_design {
+    position: absolute;
+    right: 60%;
+    top: 180%;
+}
+#BC-design {
+    position: absolute;
+    right: 60%;
+    top: 225%;
+}
+
+#about_body .buy  {
+    width: 60px;
+    color: #003f5c;
+    border: #003f5c 3px solid;
+    
+}
+#about_body .buy :hover{
+    width: 60px;
+    color: #007fb9;
+    
+}
+
+#about_body .buy h1 {
+    margin-left: 10px ;
+    letter-spacing: 2px;
+}
+.buy {
+    
+    position: absolute;
+    top: 75%;
+    margin-left: 250px;
+}
+/*=========================================  manipulation  ========================================*/
+
+
+
+
+/*=========================================  contact  ========================================*/
+
+#contact #continer {
+    z-index: 100;
+    position: absolute;
+    top: 23%;
+    left: 54%;
+}
+#contact h1 {
+    font-size: 70px;
+}
+#overlay {
+    z-index: -100;
+    background-color: #81d4faa6  ;
+    width: 600px;
+    height: 700px;
+    position: absolute;
+    top: 15%;
+    left:50%;
+}
+#overlay_2 {
+    z-index: -200;
+    background-color: #81d4fa5d  ;
+    width: 600px;
+    height: 700px;
+    position: absolute;
+    top: 15%;
+    left:15%;
+}
+#contact form {
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#note {
+    width: 480px;
+    position: absolute;
+    top: 65%;
+    left: 55%;
+}
+#my_acc {
+    position: absolute;
+    top: 20%;
+    left: 17%;
+}
+#my_acc p {
+    font-size: 23px;
+    
+}
+#my_acc ul li a {
+    color: #003f5c;
+    font-size: 30px;
+}
+#my_acc ul li i {
+    font-size: 40px;
+    padding-right: 30px ;
+}
+#my_acc ul * {
+    padding-top: 20px ;
+}
+#my_acc ul {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+/*=========================================  contact  ========================================*/
