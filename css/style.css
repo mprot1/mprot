@@ -29,7 +29,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    width: 62em;
+    max-width: 62em;
     padding: 0 1Rem;
 }
 p {
