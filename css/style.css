@@ -212,7 +212,33 @@ li {
 
 /*=========================================  manipulation  ========================================*/
 
+/*=========================================  works  ========================================*/
+#body_works section {
+    padding: 50px 0;
+    font-size: 30px;
+    
+}
+ #PM {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    MARGIN-top: 100px;
+    padding-bottom: 20px;
+    background-color: #9edffda6;
+    
 
+}
+#grid {
+    display: grid;
+    grid-template-columns: 130px 155px 254px 133px 150px;
+    background-color: #54879e9c;
+}
+#grid img {
+    height: 180px;
+    margin: 5px;
+}
+/*=========================================  works  ========================================*/
 
 
 /*=========================================  contact  ========================================*/
