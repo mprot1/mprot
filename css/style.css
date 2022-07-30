@@ -52,6 +52,7 @@ li {
 
 #logo {
     max-height: 2em;
+    padding-top: 10px;
 }
 
 #title {
@@ -220,7 +221,8 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 20px;
+    height: 92vh;
+    MIN-height: 600px;
 }
 
 #contact #continer {
