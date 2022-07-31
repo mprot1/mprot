@@ -151,7 +151,11 @@ li {
 }
 #about_2 div ul {
     padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 /*=========================================   me   ========================================*/
 
 
@@ -301,10 +305,151 @@ li {
 #my_acc ul {
     padding-top: 50px;
     padding-left: 30px;
+    
 }
 /*=========================================  contact  ========================================*/
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and ( max-width: 480PX  ) {
+    
+    
+/*=========================================   header   ========================================*/
+
+#logo {
+    max-height: 2em;
+    padding-top: 10px;
+}
+
+#title {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px ;
+    font-family: 'Koulen', cursive;
+    font-size: 1em;
+    margin: 0px;
+    padding-left: 10px;
+    letter-spacing: 3px;
+}
+
+#lest {
+    display: flex;
+    align-items: center;
+
+}
+#lest * {
+    display: flex;
+    align-items: center;
+    font-family: 'Koulen', cursive;
+    color: white;
+    font-size: 0vw ;
+}
+#lest li {
+    padding: 0 0.7em;
+}
+#lest ul li a:hover{
+    color: #b6ffff;
+}
+
+/*=========================================   header   ========================================*/
+
+/*=========================================   me   ========================================*/
+
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: #81d4fa;
+    width: 100%;
+    height: 92vh;
+    padding-left: 20px;
+}
+.hi {
+    font-size: 40px;
+    margin-right: 10px;
+    color: #005983;
+}
+#about p {
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+#about div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#about_2 *{
+    padding: 0 0px;
+}
+
+
+#about_2 li {
+    font-size: 14px;
+    padding: 0PX 4px;
+}
+#about_2 img{
+    max-width: 50px;
+}
+
+
+#about_2 #DB :last-child{
+    width: 40px;
+}
+
+#about_2 { 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#about_2 h1 .hi {
+    color: #006da0;
+    font-size: 30px;
+}
+#about_2 div {
+    display: flex;
+    justify-content: center;
+}
+#about_2 div ul {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*=========================================   me   ========================================*/
+
+}
 
 
 
