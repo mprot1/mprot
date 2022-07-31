@@ -206,8 +206,10 @@ li {
     padding: 100px 0;
 }
 #body_sec section  {
-    padding: 50px 0px;
+    margin: 50px 0px;
     display: flex;
+    background-color: #afe6ff;
+
 }
 #body_sec section img {
     padding-right: 20px;
@@ -459,7 +461,7 @@ li {
 #about_body p {
     font-size: 14px ;
     letter-spacing: 1px;
-
+    max-width: 200px;
 }
 #about_body h1 {
     color: #003f5c;
@@ -496,8 +498,10 @@ li {
     padding: 100px 0;
 }
 #body_sec section  {
-    padding: 50px 0px;
+    margin: 50px 0px;
     display: flex;
+    background-color: #afe6ff;
+    padding: 10px 10px;
 }
 #body_sec section img {
     padding-right: 20px;
