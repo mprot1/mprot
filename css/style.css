@@ -414,7 +414,7 @@ li {
 
 #about_2 li {
     font-size: 14px;
-    padding: 0PX 4px;
+    padding: 3PX 4px;
 }
 #about_2 img{
     max-width: 50px;
@@ -442,12 +442,69 @@ li {
     justify-content: center;
 }
 #about_2 div ul {
-    padding: 0px;
+    padding: 1px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 /*=========================================   me   ========================================*/
+
+
+/*=========================================  manipulation   ========================================*/
+
+
+.my_img {
+    width: 120px ;
+}
+#about_body p {
+    font-size: 14px ;
+    letter-spacing: 1px;
+
+}
+#about_body h1 {
+    color: #003f5c;
+}
+
+.title {
+    letter-spacing: 2px ;
+    font-size: 20px;
+}
+
+#about_body .buy  {
+    width: 40px;
+    color: #003f5c;
+    border: #003f5c 2px solid;
+    font-size: 11PX;
+    
+}
+#about_body .buy :hover{
+    color: #007fb9;
+}
+
+#about_body .buy h1 {
+    margin-left: 8px ;
+    letter-spacing: 0px;
+}
+.buy {
+    margin-left: 120px;
+    margin-top: 20px;
+}
+#body_sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+#body_sec section  {
+    padding: 50px 0px;
+    display: flex;
+}
+#body_sec section img {
+    padding-right: 20px;
+}
+
+
+/*=========================================  manipulation  ========================================*/
 
 }
 
