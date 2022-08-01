@@ -1,0 +1,526 @@
+/*=========================================   fremworke   ========================================*/
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Koulen', cursive;
+}
+html {
+    background-color: rgb(255, 255, 255) ;
+}
+body {
+    margin: 0px;
+    
+}
+header { 
+    background-color: #81d4fa ;
+    
+}
+
+a {
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 62em;
+    padding: 0 1Rem;
+}
+p {
+    max-width: 27em;
+    font-size: 15px;
+}
+li {
+    list-style: none;
+}
+/*=========================================   fremworke   ========================================*/
+
+
+
+
+
+
+
+
+/*=========================================   header   ========================================*/
+
+#logo {
+    max-height: 2em;
+    padding-top: 10px;
+}
+
+#title {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px ;
+    font-family: 'Koulen', cursive;
+    font-size: 1.5em;
+    margin: 0px;
+    padding-left: 10px;
+    letter-spacing: 3px;
+}
+
+#lest {
+    display: flex;
+    align-items: center;
+
+}
+#lest * {
+    display: flex;
+    align-items: center;
+    font-family: 'Koulen', cursive;
+    color: white;
+    font-size: 1.15em ;
+}
+#lest li {
+    padding: 0 0.7em;
+}
+#lest ul li a:hover{
+    color: #b6ffff;
+}
+
+/*=========================================   header   ========================================*/
+
+
+
+
+
+
+
+/*=========================================   me   ========================================*/
+
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: #81d4fa;
+    width: 100%;
+    height: 92vh;
+    padding-left: 20px;
+}
+.hi {
+    font-size: 80px;
+    margin-right: 10px;
+    color: #005983;
+}
+#about p {
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 30px;
+    max-width: 900px;
+}
+#about_2 *{
+    padding: 0 0px;
+}
+
+
+#about_2 li {
+    font-size: 24px;
+    padding: 20PX 10px;
+}
+#about_2 img{
+    max-width: 100px;
+}
+
+
+#about_2 #DB :last-child{
+    width: 78px;
+}
+
+#about_2 { 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#about_2 h1 .hi {
+    color: #006da0;
+}
+#about_2 div {
+    display: flex;
+    justify-content: center;
+}
+#about_2 div ul {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*=========================================   me   ========================================*/
+
+
+
+
+/*=========================================  manipulation   ========================================*/
+
+
+.my_img {
+    width: 200px ;
+}
+#about_body p {
+    font-size: 18px ;
+    letter-spacing: 2px;
+}
+#about_body h1 {
+    color: #003f5c;
+}
+
+.title {
+    letter-spacing: 2px ;
+    font-size: 30px;
+}
+
+#about_body .buy  {
+    width: 60px;
+    color: #003f5c;
+    border: #003f5c 3px solid;
+    
+}
+#about_body .buy :hover{
+    width: 60px;
+    color: #007fb9;
+}
+
+#about_body .buy h1 {
+    margin-left: 10px ;
+    letter-spacing: 2px;
+}
+.buy {
+    margin-left: 250px;
+    margin-top: 30px;
+}
+#body_sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+#body_sec section  {
+    padding: 10px;
+    margin: 50px 0px;
+    display: flex;
+    background-color: #afe6ff;
+
+}
+#body_sec section img {
+    padding-right: 20px;
+}
+
+
+/*=========================================  manipulation  ========================================*/
+
+/*=========================================  works  ========================================*/
+#body_works section {
+    padding: 50px 0;
+    font-size: 30px;
+    
+}
+.PM {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    MARGIN-top: 100px;
+    padding-bottom: 20px;
+    background-color: #9edffda6;
+    
+
+}
+.grid {
+    display: grid;
+    grid-template-columns: 130px 155px 254px 133px 150px;
+    background-color: #54879e9c;
+
+}
+.grid img {
+    height: 180px;
+    margin: 5px;
+}
+
+#grid_SM {
+    display: grid;
+    grid-template-columns: 190px 155px 254px 133px 150px;
+    background-color: #54879e9c;
+
+}
+/*=========================================  works  ========================================*/
+
+
+/*=========================================  contact  ========================================*/
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+    MIN-height: 600px;
+}
+
+#contact #continer {
+    background-color: #afe6ff  ;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#contact h1 {
+    font-size: 70px;
+}
+#contact form {
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#note {
+    width: 480px;
+    
+}
+#my_acc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0f0ff  ;
+    width: 500px;
+    height: 600px;
+}
+#my_acc p {
+    font-size: 23px;
+    
+}
+#my_acc ul li a {
+    color: #003f5c;
+    font-size: 30px;
+}
+#my_acc ul li i {
+    font-size: 40px;
+    padding-right: 30px ;
+}
+#my_acc ul * {
+    padding-top: 20px ;
+}
+#my_acc ul {
+    padding-top: 50px;
+    padding-left: 30px;
+    
+}
+/*=========================================  contact  ========================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and ( max-width: 480PX  ) {
+    
+    
+/*=========================================   header   ========================================*/
+
+#logo {
+    max-height: 2em;
+    padding-top: 10px;
+}
+
+#title {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px ;
+    font-family: 'Koulen', cursive;
+    font-size: 1em;
+    margin: 0px;
+    padding-left: 10px;
+    letter-spacing: 3px;
+}
+
+#lest {
+    display: flex;
+    align-items: center;
+
+}
+#lest * {
+    display: flex;
+    align-items: center;
+    font-family: 'Koulen', cursive;
+    color: white;
+    font-size: 0vw ;
+}
+#lest li {
+    padding: 0 0.7em;
+}
+#lest ul li a:hover{
+    color: #b6ffff;
+}
+
+/*=========================================   header   ========================================*/
+
+/*=========================================   me   ========================================*/
+
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: #81d4fa;
+    width: 100%;
+    height: 92vh;
+    padding-left: 20px;
+}
+.hi {
+    font-size: 40px;
+    margin-right: 10px;
+    color: #005983;
+}
+#about p {
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+#about div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#about_2 *{
+    padding: 0 0px;
+}
+
+
+#about_2 li {
+    font-size: 14px;
+    padding: 3PX 4px;
+}
+#about_2 img{
+    max-width: 50px;
+}
+
+
+#about_2 #DB :last-child{
+    width: 40px;
+}
+
+#about_2 { 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#about_2 h1 .hi {
+    color: #006da0;
+    font-size: 30px;
+}
+#about_2 div {
+    display: flex;
+    justify-content: center;
+}
+#about_2 div ul {
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*=========================================   me   ========================================*/
+
+
+/*=========================================  manipulation   ========================================*/
+
+
+.my_img {
+    width: 120px ;
+}
+#about_body p {
+    font-size: 14px ;
+    letter-spacing: 1px;
+    max-width: 200px;
+}
+#about_body h1 {
+    color: #003f5c;
+}
+
+.title {
+    letter-spacing: 2px ;
+    font-size: 20px;
+}
+
+#about_body .buy  {
+    width: 40px;
+    color: #003f5c;
+    border: #003f5c 2px solid;
+    font-size: 11PX;
+    
+}
+#about_body .buy :hover{
+    color: #007fb9;
+}
+
+#about_body .buy h1 {
+    margin-left: 8px ;
+    letter-spacing: 0px;
+}
+.buy {
+    margin-left: 120px;
+    margin-top: 20px;
+}
+#body_sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+#body_sec section  {
+    margin: 50px 0px;
+    display: flex;
+    background-color: #afe6ff;
+    padding: 10px 10px;
+}
+#body_sec section img {
+    padding-right: 20px;
+}
+
+
+/*=========================================  manipulation  ========================================*/
+
+}
+
+
+
+
