@@ -242,14 +242,14 @@ li {
     flex-direction: column;
     MARGIN-top: 100px;
     padding-bottom: 20px;
-    background-color: #9edffda6;
-    
-
+    ebackground-color: #9edffda6;
 }
 .grid {
     display: grid;
-    grid-template-columns: 130px 155px 254px 133px 150px;
-    background-color: #54879e9c;
+    grid-template-columns: 130px 155px 124px 133px 134px 149px;
+    dbackground-color: #54879e9c;
+    background-color: #9edffda6;
+
 
 }
 .grid img {
@@ -259,8 +259,8 @@ li {
 
 #grid_SM {
     display: grid;
-    grid-template-columns: 190px 155px 254px 133px 150px;
-    background-color: #54879e9c;
+    grid-template-columns: 190px 192px;
+    Dbackground-color: #54879e9c;
 
 }
 /*=========================================  works  ========================================*/
@@ -600,14 +600,14 @@ a,a:active,a:focus {
     flex-direction: column;
     MARGIN-top: 80px;
     padding-bottom: 20px;
-    background-color: #9edffda6;
+    Dbackground-color: #9edffda6;
     
 
 }
 .grid {
     display: grid;
     grid-template-columns: 90px 107px;
-    background-color: #54879e9c;
+    Dbackground-color: #54879e9c;
 
 }
 .grid img {
@@ -618,7 +618,7 @@ a,a:active,a:focus {
 #grid_SM {
     display: grid;
     grid-template-columns: 125px 130px ;
-    background-color: #54879e9c;
+    Dbackground-color: #54879e9c;
 
 }
 /*=========================================  works  ========================================*/
