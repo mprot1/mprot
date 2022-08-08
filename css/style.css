@@ -626,6 +626,120 @@ a,a:active,a:focus {
 }
 /*=========================================  works  ========================================*/
 
+/*=========================================  works  ========================================*/
+#body_works section {
+    padding: 50px 0;
+    font-size: 20px;
+    
+}
+.PM {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    MARGIN-top: 80px;
+    padding-bottom: 20px;
+    Dbackground-color: #9edffda6;
+    
+
+}
+.grid {
+    display: grid;
+    grid-template-columns: 90px 107px;
+    Dbackground-color: #54879e9c;
+
+}
+.grid img {
+    height: 120px;
+    margin: 5px;
+}
+
+#grid_SM {
+    display: grid;
+    grid-template-columns: 125px 130px ;
+    Dbackground-color: #54879e9c;
+
+}
+#Edit-5 {
+    height :136px;
+}
+/*=========================================  works  ========================================*/
+
+
+
+/*=========================================  contact  ========================================*/
+
+#contact {
+    display: flex;
+    justify-content: start;
+    flex-direction: column-reverse;
+    
+}
+
+#contact #continer {
+    background-color: #afe6ff  ;
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#contact h1 {
+    font-size: 50px;
+}
+#contact form {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#note {
+    width: 80%;
+    font-size: 14px ;
+    text-align: center;
+    margin: 20px 0;
+}
+#my_acc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0f0ff  ;
+    width: 100vw;
+    height: 100vh;
+}
+#note p {
+    font-size: 14px ;
+    text-align: center;
+    margin: 0;
+}
+#my_acc p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+#my_acc ul li a {
+    color: #003f5c;
+    font-size: 20px;
+}
+#my_acc ul li i {
+    font-size: 30px;
+    padding-right: 30px ;
+}
+#my_acc ul * {
+    padding-top: 20px ;
+}
+#my_acc ul {
+    padding-top: 50px;
+    padding-left: 30px;
+    
+}
+/*=========================================  contact  ========================================*/
+
 }
 
 
