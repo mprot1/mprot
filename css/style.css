@@ -696,7 +696,7 @@ a,a:active,a:focus {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-height: 100px;
+    max-height: 200px;
     
 }
 #note {
