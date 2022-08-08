@@ -688,6 +688,7 @@ a,a:active,a:focus {
 }
 #contact h1 {
     font-size: 50px;
+    margin: 0 3vh;
 }
 #contact form {
     height: 100vh;
@@ -695,6 +696,7 @@ a,a:active,a:focus {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-height: 100px;
     
 }
 #note {
@@ -715,7 +717,7 @@ a,a:active,a:focus {
 #note p {
     font-size: 14px ;
     text-align: center;
-    margin: 0;
+    margin: 0 4vh;
 }
 #my_acc p {
     font-size: 20px;
