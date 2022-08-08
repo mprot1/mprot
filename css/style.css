@@ -585,6 +585,44 @@ a,a:active,a:focus {
 
 /*=========================================  manipulation  ========================================*/
 
+
+
+/*=========================================  works  ========================================*/
+#body_works section {
+    padding: 50px 0;
+    font-size: 20px;
+    
+}
+.PM {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    MARGIN-top: 80px;
+    padding-bottom: 20px;
+    background-color: #9edffda6;
+    
+
+}
+.grid {
+    display: grid;
+    grid-template-columns: 90px 107px;
+    background-color: #54879e9c;
+
+}
+.grid img {
+    height: 120px;
+    margin: 5px;
+}
+
+#grid_SM {
+    display: grid;
+    grid-template-columns: 125px 130px ;
+    background-color: #54879e9c;
+
+}
+/*=========================================  works  ========================================*/
+
 }
 
 
